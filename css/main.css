@@ -1,0 +1,287 @@
+.c2{
+    background-color: white;
+    position: relative;
+    max-width: 960px;
+    margin: 0 50px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.header-left {
+    margin-right: 10px;
+}
+.c3{
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.c2, .c3 {
+    margin-left: 100px;
+}
+header {   
+    background-color: #ECECEC;
+    padding: 12px 0;
+}
+.uc{
+    text-transform: uppercase;
+}
+    
+h1{
+    margin-top: 0.7em;
+    margin-bottom: .7px;
+    color: rgb(80, 79, 79);
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    letter-spacing: -0.1rem;
+    position: relative;
+    bottom: 20px;
+}
+p{
+    color: rgb(153, 145, 163);
+    font-family: serif;
+    font-size: 0.9em;
+}
+#plate {
+    /*background: transparent;
+    float: left;
+    position: relative;
+    left: 40px;
+    top: 80px;*/
+    align-items: center;
+    justify-content: center;
+    margin: 80px 10px -10px 30px;
+}
+
+h2 {
+    margin-top:60px;
+    color: rgb(80, 79, 79);
+    font-size: 4rem; 
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 0.01rem; 
+}
+.containerex{
+    width: 400px;
+}
+.p1{
+    color: rgb(153, 145, 163);
+    font-family: serif;
+}
+.p2{
+    font-size: 1.4em;
+}
+/*top right bottom left */
+#donut{
+    margin-left: 50px;
+    margin-top: 20px;
+    background: transparent;
+    opacity: 0.9;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.7em;
+}
+
+.padding { 
+    padding-top: 2em;
+}
+.padding2 {
+    padding-top: 3em;
+}
+
+#logo {
+    font-size: 1.6em;
+    font-weight: 900;
+    color: rgb(54, 53, 53);
+}
+#logo span {
+    color: #7C19DF;
+}
+.d1{
+    text-align: justify;
+    position: relative;
+    top: 10px;
+    margin-left: 30px;
+}
+.d1 h2 {
+    justify-content: center;
+    align-items: center;
+    /*margin-left: -80px;*/
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+}
+header ul li {
+    float:left;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+header ul li a{
+    color: gray;
+    font-size:0.8em;
+    margin-left: 40px;
+}
+#purple-container{
+    background: rgb(132, 45, 219) url('/Users/dunduni/Skeleton-2.0.4 2/Skeleton-2.0.4/images/24-Incredible-Sous-Vide-Recipes-for-FiveStar-Meals_header-752x401.jpg') no-repeat;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    max-width:100%;
+    height:100%;
+    position: relative;
+    padding-top: 60px;
+}
+.cut{
+    margin-top: 50px;
+    background: white;
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 120%;
+    height: 20%;
+    overflow: hidden;
+    transform-origin: center;
+    transform: rotate(-1.5deg);
+}
+
+.wt{
+    color: white;
+}
+.c4 {
+     background-color: #210031;
+     height: 100%;
+     width:100%;
+     margin-left: 0;
+     padding-top: 50px;
+     position: relative;
+     padding-left: 40px;
+     padding-bottom: 10px;
+}
+label {
+    color: #836C8C;
+    font-weight: 300;
+}
+
+input[type=text] {
+    background:none;
+    border: 1px solid #593E73 !important;
+    outline: 0 !important;
+    color:white;
+}
+
+select {
+    background:none;
+    border: 1px solid#593E73 !important;
+    color:#836C8C;
+}
+
+#cta {
+    font-size: 1.6rem;
+    padding: .5rem 3rem;
+    height:auto;
+    z-index: 100;
+    margin-bottom: 100px;
+}
+
+input[type=submit] {
+    margin-top: 24px;
+    font-size:1.6rem;
+    width:300px;
+}
+
+@media (max-width:550px) {
+    #logo {
+        display:block;
+        text-align:center;
+        margin-bottom:1rem;
+    }
+
+ul {
+    width:100%
+}
+
+ul li {
+    display: block;
+    width:100%;
+    margin: 1px 0 0 0;
+    padding:0;
+}
+
+header ul li a{
+     margin-left:0;
+     width: 100%;
+     display:block;
+     border-bottom:1px solid lightslategray;
+     padding:5px;
+}
+
+header ul li:last-child a {
+    border-bottom:0;
+    padding-bottom:0;
+}
+
+.padding{
+padding-top:1.5em;
+}
+.padding2{
+    padding-top:0;
+}
+
+h1, h2, p , .c4 {
+    text-align:center;
+}
+#plate {
+    float:none !important;
+    margin-bottom:140px;
+    margin-left: 0px;
+}
+#donut {
+    float: none !important;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.d1 {
+    margin-top:-80px;
+    margin-left: 50px;
+}
+.d1 h2 {
+    margin-left: -80px;
+}
+.padding1 {
+    padding-top:0;
+}
+.wt {
+    padding-top: 0;
+}
+#cta {
+    width:80%;
+    z-index: 100;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.cut {
+    height: 10%;
+    padding-top:0.005px;
+overflow: visible;
+}
+label {
+    width:90%;
+    margin-left: 20px;
+}
+} 
+
+@media(max-width:750px) {
+    h1{
+        font-size:3em;
+    }
+    h1, h2 , .c4, p, .c3 {
+        text-align:center;
+    }
+    .c4 {
+        padding-left: 20px;
+    }
+}
